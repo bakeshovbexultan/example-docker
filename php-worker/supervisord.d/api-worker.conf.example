@@ -1,0 +1,9 @@
+[program:api-worker]
+process_name=%(program_name)s
+command=php /var/www/api/artisan horizon
+autostart=true
+autorestart=true
+;user=root
+redirect_stderr=true
+stdout_logfile=/var/www/api/storage/logs/worker.log
+stopwaitsecs=3600

@@ -1,0 +1,15 @@
+.idea
+/logs
+/data
+.env
+init-letsencrypt.sh
+
+/certbot/data
+
+/nginx/ssl/*.crt
+/nginx/ssl/*.key
+/nginx/ssl/*.csr
+
+.DS_Store
+
+
