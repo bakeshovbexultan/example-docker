@@ -7,8 +7,8 @@ Rename the example word to the name of your project
 
 - file: nginx->sites->api.conf.example
 - file: nginx->sites->admin.conf.example
-- file: .env.example
 - file: nginx->sites->telescope.conf.example
+- file: .env.example
 ```
 
 #### For Windows & Linux
